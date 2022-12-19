@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Profile</title>
+	<link rel="stylesheet" href="hobby.css">
+</head>
+<body>
+	<header>
+		<div class="logo" style="text-decoration: none;"><a href="personald.html">PROFILE</a></div>
+		<div class="logo" style="text-decoration: none;"><a href="travel.html">Travel</a></div>
+		<div class="logo" style="text-decoration: none;"><a href="softwared.html">Career</a></div>
+		<div class="Responsive">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+		<nav class="nav-bar">
+			<ul>
+				<li>
+					<a href="personald.html">Personal Data</a>
+
+				</li>
+				<li>
+					<a href="educationalb.html">Educational Background</a>
+				</li>
+				<li>
+					<a href="familyb.html">Family Background</a>
+				</li>
+				<li>
+					<a href="hobby.html" class="active" >Hobby</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<script>
+		Responsive = document.querySelector(".Responsive");
+		Responsive.onclick = function() {
+			navBar = document.querySelector(".nav-bar");
+			navBar.classList.toggle("active");
+		}
+	</script>
+
+</body>
+</html>
